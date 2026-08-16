@@ -1,32 +1,42 @@
-================================================================================
-                                  ALEX R. CHEN
-                  alex.chen@email.com | github.com/alexchen-math
-================================================================================
+# Advanced Mathematics Self-Study Portfolio
 
-EDUCATION
---------------------------------------------------------------------------------
-Bachelor of Science in Mathematics                               Expected May 2027
-University of Science and Technology
-• Relevant Coursework: Linear Algebra, Differential Equations, Probability & Statistics
+This repository contains selected proof write-ups, problem solution sets, and computational scripts from my independent study of 3rd-year undergraduate and foundational graduate mathematics.
 
-INDEPENDENT ADVANCED STUDY & PROOF PORTFOLIO
---------------------------------------------------------------------------------
-Self-Directed Upper-Level Mathematics                           Jan 2026 – Present
-Repository: github.com/alexchen-math/advanced-math-portfolio
+---
 
-• Real Analysis (Text: Understanding Analysis by S. Abbott & Baby Rudin)
-  - Solved and typeset 120+ proof-based problems covering metric space topology,
-    uniform convergence, and Riemann-Stieltjes integration.
-  - Authored detailed counterexample write-ups illustrating the necessity of compactness
-    and continuity hypotheses in core analysis theorems.
+## 📚 Study Modules & Core Textbooks
 
-• Abstract Algebra (Text: Abstract Algebra by Dummit & Foote)
-  - Worked through 90+ selected problems on group actions, Sylow theorems, ring
-    homomorphisms, and Galois theory.
-  - Developed a digital proof companion in LaTeX utilizing custom macros for speed
-    and typographical consistency.
+### 1. Real Analysis
+* **Primary Text:** *Understanding Analysis* (2nd Ed.) by Stephen Abbott
+* **Supplementary Text:** *Principles of Mathematical Analysis* by Walter Rudin
+* **Topics Covered:** Sequences & Series, Topology of $\mathbb{R}^n$, Functional Continuity, Differentiation, Riemann Integration, Sequences of Functions.
+* **[📄 Download Compiled Real Analysis PDF](./real-analysis/Real_Analysis_Selected_Solutions.pdf)**
 
-• Computational Extensions (Python)
-  - Implemented 15+ numerical scripts in Python (NumPy/Matplotlib) to visualize 
-    fourier series convergence and sequence behaviors in metric spaces.
-================================================================================
+### 2. Abstract Algebra
+* **Primary Text:** *Abstract Algebra* (3rd Ed.) by David S. Dummit & Richard M. Foote
+* **Topics Covered:** Group Theory (Sylow Theorems, Direct Products), Ring Theory (Ideals, Euclidean Domains, PIDs, UFDs), Field Extensions.
+* **[📄 Download Compiled Abstract Algebra PDF](./abstract-algebra/Abstract_Algebra_Selected_Solutions.pdf)**
+
+---
+
+## 🎯 Selection Criteria & Methodology
+
+Instead of writing a full solution manual, this repository focuses on **high-leverage problems**:
+1. **Key Theorem Extensions:** Problems that generalize main lecture results or relax hypotheses to explore counterexamples.
+2. **Qualifying Exam Style:** Multi-step proofs commonly found on first-year graduate qualifying exams.
+3. **Rigorous Typesetting:** All solutions are written in LaTeX using standard environments (`proof`, `tcolorbox`, `amsmath`) for maximum clarity.
+
+---
+
+## 📁 Repository Layout
+
+```text
+├── real-analysis/
+│   ├── Real_Analysis_Selected_Solutions.pdf   <-- Direct link for readers
+│   └── src/                                   <-- .tex source files & macros
+├── abstract-algebra/
+│   ├── Abstract_Algebra_Selected_Solutions.pdf
+│   └── src/
+├── python-visualizations/                     <-- Code scripts modeling math concepts
+│   └── fourier_convergence.py
+└── README.md
